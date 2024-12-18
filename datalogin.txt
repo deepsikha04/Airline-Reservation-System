@@ -1,0 +1,10 @@
+insert into login values ("dipsghimire5@gmail.com","deepsikha","Admin");
+insert into login values ("pooja@gmail.com","pooja","User");
+insert into login values ("biswash@gmail.com","bishu59","User");
+insert into login values ("ram15@gmail.com","ram@3456","User");
+insert into login values ("anjali@gmail.com","anjali12","User");
+insert into login values ("jeena@gmail.com","jeena","User");
+insert into login values ("krisha@gmail.com","krisha","User");
+insert into login values ("menuka@gmail.com","menuka23","User");
+insert into login values ("surendra@gmail.com","surendra@123","User");
+insert into login values ("digs5@gmail.com","dig45darshan","User");

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airline Dashboard</title>
+    <link rel="stylesheet" href="dash.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="home.php"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="flights.php"><i class="fas fa-plane"></i> Search Flight</a></li>
+                <li><a href="routes.php"><i class="fas fa-route"></i> Flight Routes</a></li>
+                <li><a href="flight_status.php"><i class="fas fa-info-circle"></i> Flight Status</a></li>
+                <li><a href="booking.php"><i class="fas fa-ticket-alt"></i> Book Flight</a></li>
+                <li><a href="logout.php"><i class="fas fa-sign-out-alt"></i> Logoff</a></li>
+            </ul>
+        </nav>
+		</div>
+<div class="container1">
+        
+		
+    <h2>Book your Flight</h2>
+    <form action="submit_booking.php" method="POST">
+        <label for="origin">Origin:</label>
+        <input type="text" id="origin" name="origin" required><br><br>
+
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" name="destination" required><br><br>
+
+        <label for="trip_type">Trip Type:</label>
+        <input type="radio" id="one_way" name="trip_type" value="one_way" required>
+        <label for="one_way">One Way</label>
+        <input type="radio" id="two_way" name="trip_type" value="two_way" required>
+        <label for="two_way">Two Way</label><br><br>
+
+        <label for="departure_date">Departure Date:</label>
+        <input type="date" id="departure_date" name="departure_date" required><br><br>
+
+        <label for="arrival_date">Arrival Date:</label>
+        <input type="date" id="arrival_date" name="arrival_date"><br><br>
+
+        <label for="nationality">Nationality:</label>
+        <input type="text" id="nationality" name="nationality" required><br><br>
+
+        <label for="num_passengers">Number of Passengers:</label>
+        <input type="number" id="num_passengers" name="num_passengers" required><br><br>
+
+        <input type="submit" name="submit" value="Book Flight">
+    </form>
+	</div>
+	</div>
+</body>
+</html>
+
+    
